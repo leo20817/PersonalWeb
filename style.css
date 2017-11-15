@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+}
+#nav{
+  background-color: #0066FF;
+  width:100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#content{
+  position:relative;
+  top:84px;
+  padding:20px;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto; 
+}
+
+
+#my-avatar{
+  float:left;
+  margin-right: 20px;
+}
+
+#my-avatar img{
+  width: 200px;
+}
+
+#content > .container > div {
+  padding: 84px 0;
+}
+
+.menu li{
+  display: inline-block;
+
+  width:150px;
+  padding:10px 0;
+  margin:5px;
+
+  border:1px solid white;
+  border-radius: 5px;
+
+  list-style-type: none;
+  text-align: center;
+  background-color: #0066FF;
+  color:white; 
+}
+
+.menu{
+  float: right;
+}
+
+a{
+  display:block;
+  color:white;
+  text-decoration: none;
+}
+
+li:hover{
+  background-color: white;
+}
+
+li:hover a{
+  color:#0066FF;
+  font-style: bold;
+}
+
+h1{
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#about h1{
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+h3{
+  margin:0;
+}
+
+table{
+  font-size: 16px;
+  text-align: left;
+}
+th, td{
+  vertical-align: top;
+}
+
+td{
+  color:#666;
+  padding-left: 10px;
+}
+hr{
+  border:0.5px solid #eee;
+}
+
+#my-work-gallery{
+  text-align: center;
+}
+.item{
+  position:relative;
+  max-width: 30%;
+  display:inline-block;
+  margin-bottom: 10px;
+}
+
+.item img{
+  width:100%;
+}
+
+.item-info{
+  background-color:rgba(255,255,255,.8);
+  
+  position: absolute;
+  top: 0px;
+  left:0px;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  padding: 25px 10px;
+
+  opacity: 0;
+}
+
+.item-info:hover{
+  opacity: 1;
+}
+
+form.contact-form{
+  width:50%;
+  margin: 0 auto;
+}
+
+.form-row{
+  margin-bottom: 15px;
+}
+
+.form-row input, .form-row textarea{
+  border-radius: 3px 0px 3px 0px;
+  width:100%;
+  border: 1px solid #D6D9DC;
+  padding: 7px;
+}
+
+.form-row textarea{
+  resize: none;
+  height: 5em;
+}
+
+.form-row button{
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor:pointer;
+}
+
+.form-row button[type="submit"]{
+  background-color: blue;
+  color:white;
+}
+
+.form-row button:hover{
+  background-color: #76AEED;
+}
+
+.form-row button:active{
+  background-color: #407FC7;
+}
